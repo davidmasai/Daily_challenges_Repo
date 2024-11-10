@@ -1,2 +1,2 @@
-**This is my first interesting project**
-**VS Code makes committing faster and easir**
+**This are my first interesting projects with python**
+**I'll be using both VSCode and Jupyter Notebooks to create this codes**
