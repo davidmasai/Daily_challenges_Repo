@@ -1,0 +1,10 @@
+This was the question
+Create a program:
+1. Takes in the details of Formula 1 drivers, e.g., their names and the race team.
+Save these details under a variable called biodata.
+2. Each driver to race needs a password that they must say during race day.
+3. Find a way to:
+   a.) Take in each driver's password
+   b.) Validate each driver's password
+4. If the driver is validated, print('driver can race!!')in uppercase without writing the characters in uppercase
+5. If they fail to provide a password, print('try again, or race again next race day') in uppercase without writing the characters in uppercase
