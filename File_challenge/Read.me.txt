@@ -1,0 +1,10 @@
+This challenge was about reading and writing files:
+the Question was :
+
+Search for Files: Use the os module to find all .txt files in a given directory (and its subdirectories- optional).
+
+Filter File Contents: Use a generator to read each .txt file line-by-line and filter lines containing a specific keyword (e.g., "Python").
+
+Transform Results: Use a list comprehension to store the filtered lines as tuples in the format (filename, line_number, line_content).
+
+Output Results: Save the processed results to a new text file called filtered_results.txt.
