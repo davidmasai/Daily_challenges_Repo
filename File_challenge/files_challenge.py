@@ -8,6 +8,13 @@ def file_filter():
     """
     desired_files=[] # Initialize a list to store the names of desired .txt files
     
+    import os
+    #get current working directory
+    current_directory=os.getcwd()
+    #if file is not in current directory, change to another directory using os.chdir(path_to_desired_folder/file)
+    # change_directory=os.chdir(absolute_path)
+    
+    all_files=os.listdir()
     # part 1:
     # Filter out files that do not end with '.txt' using lambda function
     filter_function=lambda char : char.lower().endswith('.txt')
